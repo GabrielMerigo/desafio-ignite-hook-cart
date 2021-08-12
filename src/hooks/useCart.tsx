@@ -118,7 +118,6 @@ export function CartProvider(props: CartProviderProps) {
       } : {
         ...product
       })
-      console.log(amount)
       setCart(newProducts)
       localStorage.setItem('@RocketShoes:cart', JSON.stringify(newProducts));
  
